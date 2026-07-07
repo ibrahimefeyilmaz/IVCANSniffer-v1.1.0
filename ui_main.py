@@ -106,7 +106,7 @@ class Ui_MainWindow(object):
         Args:
             MainWindow (QMainWindow): The main window instance containing the UI components.
         """
-        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"IVCanSniffer-v1.0.1", None))
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"IVCanSniffer-v1.1.0", None))
         self.date.setText(QCoreApplication.translate("MainWindow", u"Date", None))
         self.Refresh.setText(QCoreApplication.translate("MainWindow", u"Refresh", None))
         self.start_stop.setText(QCoreApplication.translate("MainWindow", u"Start", None))
